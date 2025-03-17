@@ -1,8 +1,8 @@
 const express = require('express')
 const app = express()
 require('dotenv').config()
-const registerRoutes = require('./routes/register')
-const contactRoutes = require('./routes/contact')
+const registerRoutes = require('./routes/register.js')
+const contactRoutes = require('./routes/contact.js')
 
 const dbConnect = require('./config/database')
 
